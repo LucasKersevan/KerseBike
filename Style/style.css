@@ -1,126 +1,149 @@
-/* Estilos de Fondo y Titulo*/
-body{
-    margin: 0;
-    width: 100%;
+@import url(./Layout/Header.scss);
+body {
+  margin: 0;
+  width: 100%;
 }
-header{
-    margin: 0;
-    width: auto;
-    background-color: rgba(243,243,243);
+
+header {
+  margin: 0;
+  width: auto;
+  background-color: rgb(243, 243, 243);
 }
-h1{
-    background-image: url(../Imagenes/KerseBike2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 12vh;
-    margin: 0;
+
+h1 {
+  background-image: url(../../Imagenes/KerseBike2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 12vh;
+  margin: 0;
 }
-/*Estilo del NavBar*/
-.navbar-brand, .navbar{
-    font-size: 1.5rem;
-    font-weight: bold;
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+.navbar-brand, .navbar {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-toggler{
+  color: rgb(255, 255, 255);
+}
+
 /* Estilos para los Productos*/
-.TituloDeProductos{
-text-align: center;
-background-color: rgb(243,243,243);
-color: rgb(0, 0, 0);
-margin: 1rem;
+.TituloDeProductos {
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  margin: 1rem;
 }
-.ContenedorProductos{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    padding: 1rem 10rem 4rem;
+
+.ContenedorProductos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem 10rem 4rem;
 }
-.CardProducto{
-background-color: rgb(228,250,238);
-width: 20rem;
-border: 1px solid rgb(0, 0, 0);
+
+.CardProducto {
+  background-color: rgb(228, 250, 238);
+  width: 20rem;
+  border: 1px solid rgb(0, 0, 0);
 }
-.CardProducto img{
-width: 100%;
-max-height: 185.06px;
+
+.CardProducto img {
+  width: 100%;
+  max-height: 185.06px;
 }
-.cardinfo{
-    display: flex;
-    text-align: center;
-    width: 100%;
+
+.cardinfo {
+  display: flex;
+  text-align: center;
+  width: 100%;
 }
-h3{
-    font-size: 1.25rem;
-    text-align: center;
+
+h3 {
+  font-size: 1.25rem;
+  text-align: center;
 }
-.Precio{
-font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
+
+.Precio {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
+
 /*Pie de Pagina*/
-.Pie{
-    background-color: black;
-    padding: 2rem 2rem;
+.Pie {
+  background-color: black;
+  padding: 2rem 2rem;
 }
-.NosotrosYRedes{
-    text-align: center;
+
+.NosotrosYRedes {
+  text-align: center;
 }
-.info{
-    display: flex;
-    color: rgb(255, 255, 255);
-    font-size: 100%;
-    margin: 0;
-    list-style-type:none;
-    display:inline;
-    font-weight: bold;
+
+.info {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  font-weight: bold;
 }
-.redes{
-list-style-type: none;
-} 
-ul{
-    padding: 0;
+
+.redes {
+  list-style-type: none;
 }
-.mapa{
-    width: 200px;
-    height: 200px;
+
+ul {
+  padding: 0;
 }
+
+.mapa {
+  width: 200px;
+  height: 200px;
+}
+
 /*Responsive*/
 @media only screen and (min-width: 768px) {
-    h1{
+  h1 {
     background-image: url(../Imagenes/KerseBike2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
     height: 29.8vh;
     margin: 0;
-    }
-    .mapa{
-        width: 400px;
-        height: 200px;
-    }
+  }
+  .mapa {
+    width: 400px;
+    height: 200px;
+  }
 }
 @media only screen and (min-width: 1050px) {
-    h1{
-        background-image: url(../Imagenes/KerseBike2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 41vh;
-        margin: 0;
-}
-.mapa{
+  h1 {
+    background-image: url(../Imagenes/KerseBike2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 41vh;
+    margin: 0;
+  }
+  .mapa {
     width: 600px;
     height: 300px;
-}
+  }
 }
 @media only screen and (min-width: 1920px) {
-    h1{
-        background-image: url(../Imagenes/KerseBike2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 75.5vh;
-        margin: 0;
-}
+  h1 {
+    background-image: url(../Imagenes/KerseBike2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 75.5vh;
+    margin: 0;
+  }
 }
