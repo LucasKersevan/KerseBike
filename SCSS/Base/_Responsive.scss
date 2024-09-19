@@ -1,0 +1,44 @@
+/*Responsive*/
+/*Celular Generico*/
+@media only screen and (min-width: 768px) {
+    h1{
+    height: 29.8vh;
+    margin: 0;
+    }
+    .mapa{
+        width: 400px;
+        height: 200px;
+    }
+}
+/*Tablet Generica*/
+@media only screen and (min-width: 1050px) {
+    h1{
+        height: 41vh;
+        margin: 0;
+}
+.mapa{
+    width: 600px;
+    height: 300px;
+}
+}
+/*Iphone Plus y Pro Max*/
+@media only screen and (min-width: 1284px) {
+     h1{
+        height: 50.3vh;}
+    .CardProducto{
+        width: 28rem;
+        height: 28rem;
+        }
+    .cardproducto img{
+        padding-bottom: 350px;
+        height: auto;
+        flex-grow: 1;
+    }
+}
+/*Desktop 1920x1080*/
+@media only screen and (min-width: 1920px) {
+    h1{
+        height: 75.5vh;
+        margin: 0;
+}
+}
